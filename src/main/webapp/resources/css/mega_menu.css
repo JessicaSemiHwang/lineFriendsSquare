@@ -1,0 +1,70 @@
+
+.menu-category{
+	/* border:1px solid red; */
+}
+
+/* .menu-category:hover{
+	background:white;
+} */
+
+/* 메가메뉴를 위한 속성 설정 */
+.menubar {		
+/* 	position:absolute;
+	width:100%;
+	top:69px; */
+	padding:0;
+	position:absolute;
+	display:block;	
+	width:100%;
+	top:69.5px;
+	z-index:999;
+	height:64px;
+	/* border:1px solid white; */
+	transition: height 0.2s;
+}
+
+	
+.menu_container {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	display:inline-block;	
+	padding:0;
+	margin:auto;
+	z-index:99
+}
+.menus{
+	position:absolute;
+	top:0;
+	/* border:1px solid white; */
+	z-index:99
+}
+.visual-area{
+	margin-top:64px;
+	/* border:3px solid blue; */
+}
+
+.nav-link{
+	padding:16px 0;
+}
+
+.sub-list {	
+ 	display:none;  
+	top:100%;
+
+}
+
+.sub-list a{color : white;}
+.sub-list a:hover{color:#ff80ff;}
+
+/* 상단고정시 사용을 위한 class */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+

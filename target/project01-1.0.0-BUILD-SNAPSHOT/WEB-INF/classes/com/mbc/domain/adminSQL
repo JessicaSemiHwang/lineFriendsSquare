@@ -1,0 +1,11 @@
+drop table admin; 
+create table admin(
+    id varchar(20) not null,
+    password varchar(20) not null,
+    name varchar(20) not null,
+    email varchar(30) not null
+);
+
+insert into admin values('test', 'test', '김경민', 'test@gmail.com');
+select * from admin;
+commit;

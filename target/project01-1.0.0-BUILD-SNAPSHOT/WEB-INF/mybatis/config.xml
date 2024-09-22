@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+ <configuration>
+ 	<typeAliases>
+ 		<typeAlias type="com.mbc.domain.BoardDTO" alias="boardDTO"/>
+ 		<typeAlias type="com.mbc.domain.MemberDTO" alias="MemberDTO"/>
+ 		<typeAlias type="com.mbc.domain.ReplyDTO" alias="replyDTO"/>
+ 		<typeAlias type="com.mbc.domain.AdminDTO" alias="AdminDTO"/>
+ 		<typeAlias type="com.mbc.domain.CategoryDTO" alias="CategoryDTO"/>
+ 		<typeAlias type="com.mbc.domain.ProductDTO" alias="ProductDTO"/>
+ 		<typeAlias type="com.mbc.domain.CartDTO" alias="CartDTO"/>
+ 	</typeAliases>
+ </configuration>
+  
